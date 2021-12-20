@@ -1,0 +1,77 @@
+*{
+    font-family: 'Public Sans', sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 12px;
+}
+.About{
+    font-size: 21px;
+    margin-top: 50px;
+}
+.About img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.About h2{
+    font-size: 36px;
+}
+h1{ font-family: 'Chivo', sans-serif;
+    font-size: 45px;
+    background-color: #7b1414;
+    border: 2px solid #121a53;
+    border-radius: 24px;
+    color: #ffffff;
+}
+
+.Hobbies , .Education{
+    padding-top: 24px;
+    background-color: rgb(194, 194, 194);
+    margin: 42px 22px;
+    border: 2px solid rgb(10, 10, 65);
+    border-radius: 16px;
+    box-shadow: black;
+}
+h2{ 
+    font-size: 37px;
+}
+.Hobbies, .Education h2{
+    border-bottom: 2px solid black;
+}
+.Hobbies hr{
+   height: 2px;
+   color: blue;
+}
+.Container{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+@media(max-width:1200px)
+{
+    .Container{
+        flex-direction: column;
+    }
+}
+.box{   
+    margin: 23px;
+}
+.box img{
+    height: 220px;
+    width: 333px;
+    border-radius: 45px;
+}
+
+.past_experience{
+
+}
+.Contact a{
+    text-decoration: none;
+    color: black;
+}
+.Contact a:hover{
+  border: 2px solid rgb(5, 5, 46); 
+  border-radius: 4px; 
+  background-color: black;
+  color: whitesmoke;
+}
